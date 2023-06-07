@@ -1,0 +1,21 @@
+{
+    "name": "sagni/inspire",
+    "description": "sagni/inspire",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Sagni\\Inspire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sagni Alemayehu",
+            "email": "sagnialemayehu69@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+         "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
